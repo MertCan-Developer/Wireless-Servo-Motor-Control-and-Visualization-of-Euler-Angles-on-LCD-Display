@@ -1,0 +1,3 @@
+../BNO055_SensorAPI/BNO055_Port/bno055_port.c:5:4:bno055_write	1
+../BNO055_SensorAPI/BNO055_Port/bno055_port.c:12:4:bno055_read	1
+../BNO055_SensorAPI/BNO055_Port/bno055_port.c:19:6:bno055_delay	1

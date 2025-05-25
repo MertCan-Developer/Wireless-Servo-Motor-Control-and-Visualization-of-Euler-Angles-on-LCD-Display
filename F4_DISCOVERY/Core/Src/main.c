@@ -35,8 +35,8 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define PACKET_START 	'$'
-#define PACKET_END		'!'
-#define MAX_RX_LEN		32
+#define PACKET_END	'!'
+#define MAX_RX_LEN	32
 
 /* USER CODE END PD */
 

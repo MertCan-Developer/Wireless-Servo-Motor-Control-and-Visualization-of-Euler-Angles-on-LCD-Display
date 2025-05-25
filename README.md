@@ -35,3 +35,5 @@ The working logic of the system is as follows:
 - For this converter to be in transmit mode, the relevant GPIO pin must be set. In order for it to be in receive mode, it must be reset. For this reason, the GPIO pin on the F030 board is set and the GPIO pin on the F4 Discovery board is reset.
 
 - In this way, data is received and transmitted. For this project, we can say that the F030 card carries out the task of data reception and verification, and the F4 Discovery card carries out the task of routing and processing the received and verified data to the relevant places. In other words, this is a distributed system that lightens the processing load.
+
+Note: Since the servo motors I had were not original, I had to calibrate them and I calibrated them. If the servo motor you have is not original, it will most likely need to be calibrated. In other words, if it rotates more or less where it should normally rotate +90 degrees, then it needs to be calibrated, but if it is original, you will not have such a problem.

@@ -24,8 +24,6 @@ The working logic of the system is as follows:
 
 - The data format of the 29 bytes of data to be sent to the F4 card is '$;S:----,----,----;M:---,---;!'. Here 'S' represents the sensor and 'M' represents the motor. '$' is the start character and '!' is the end character. The data read from the sensor in the format holds the Roll, Pitch and Heading angles respectively. The motor CCRx data from the Bluetooth module are servo-1 and servo-2 data respectively.
 
-- The data format of the 29 bytes of data to be sent to the F4 board is '$;S:----,----,----,----;M:---,---;!'. Here 'S' represents the sensor and 'M' represents the motor. '$' is the start character and '!' is the end character. The data read from the sensor in the format holds the Roll, Pitch and Heading angles respectively. The motor CCRx data from the Bluetooth module are servo-1 and servo-2 data respectively.
-
 - When this data package arrives at the F4 card, the data at the points specified in the package are parsed and sent to the relevant places.
 
 - The CCRx values of the servo motors are taken from the packet, converted from 'char' type to 'int' type and written to the relevant register of the relevant servo motor.

@@ -1,0 +1,8 @@
+../LCD_I2C/Src/LCD_I2C.c:19:6:LCD_Device_Ready	2
+../LCD_I2C/Src/LCD_I2C.c:41:6:LCD_Send30h	2
+../LCD_I2C/Src/LCD_I2C.c:51:6:LCD_SendCommand	1
+../LCD_I2C/Src/LCD_I2C.c:68:6:LCD_SendData	1
+../LCD_I2C/Src/LCD_I2C.c:86:6:LCD_ClearScreen	1
+../LCD_I2C/Src/LCD_I2C.c:92:6:LCD_SetCursor	3
+../LCD_I2C/Src/LCD_I2C.c:111:6:LCD_Init	1
+../LCD_I2C/Src/LCD_I2C.c:136:6:LCD_SendString	2
